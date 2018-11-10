@@ -1,0 +1,6 @@
+version: '3'
+services:
+ libamtrack:
+  container_name: "libamtrack"
+  build: .
+  command: tail -f /dev/null
